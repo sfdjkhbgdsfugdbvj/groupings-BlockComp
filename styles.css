@@ -1,0 +1,390 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+hr {
+    width: 75%;
+}
+
+.logoLink {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.bottomBlackSpace {
+    bottom: 0;
+    margin-top: 132px;
+    height: 75px;
+    position: sticky;
+    background-color: rgb(41, 41, 41);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    z-index: 10;
+    border-top: 1px rgba(255, 251, 251, 0.199) solid;
+}
+
+
+
+/* navbar */
+.background {
+    background-color: rgb(41, 41, 41);
+    display: flex;
+    justify-content: flex-end;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    border-bottom: 1px rgba(255, 251, 251, 0.199) solid;
+}
+
+.navbarContainer {
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonContainer {
+    padding: 5px;
+    display: flex;
+    margin-right: 150px;
+}
+
+.buttons {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    color: #b9b9b9;
+    font-size: 18px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    transition: background-color 180ms ease-in-out;
+    border-radius: 1000px;
+    margin-right: 10px;
+}
+
+.buttons:hover {
+    background-color: rgba(189, 189, 189, 0.1);
+    border-width: 0px;
+    color: #fff;
+    text-decoration: underline;
+}
+
+.logoContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+}
+
+.logoBox {
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+}
+
+.textContainer {
+    color: whitesmoke;
+    margin-left: 5px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+
+/* icon next to the text in the middle */
+.imageContainerBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.imageContainer {
+    padding: 5px;
+    color: whitesmoke;
+}
+
+.imgae {
+    width: 380px;
+    height: 380px;
+}
+
+
+/* the main body */
+.mainBody {
+    box-sizing: border-box;
+    padding-top: 75px;
+}
+
+
+.textContainerBodyBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.textContainerBody {
+    background-color: rgb(41, 41, 41);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 400px;
+    border: 1px none solid;
+    border-radius: 15px;
+}
+
+.header1 {
+    box-sizing: border-box;
+    color: whitesmoke;
+    font-size: 50px;
+    margin: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.header2 {
+    box-sizing: border-box;
+    color: whitesmoke;
+    font-size: 45px;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.dscrptionContainer {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 35px;
+    color: whitesmoke;
+    box-sizing: border-box;
+}
+
+
+/* the boxes */
+.HeaderAlignment {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 400px;
+}
+
+.alignment {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bodyContainer {
+    box-sizing: border-box;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 85%;
+    display: flex;
+    border: 2px rgba(185, 185, 185, 0.288) solid;
+    box-shadow: 0px 6px 4px 4px rgba(245, 245, 245, 0.089);
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.InnerBox {
+    box-sizing: border-box;
+    word-wrap: break-word;
+    height: 400px;
+}
+.InnerBoxForHeader{
+    box-sizing: border-box;
+    word-wrap: break-word;
+}
+
+.OuterInnerBoxText {
+    height: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.InnerBoxText {
+    border-radius: 30px;
+    background-color: rgb(41, 41, 41);
+    border: 1px rgba(255, 251, 251, 0.199) solid;
+    color: whitesmoke;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 350px;
+    height: 80%;
+    text-align: center;
+}
+
+.header2 {
+    font-size: 35px;
+    overflow: hidden;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.text1 {
+    font-size: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 80px;
+    padding-bottom: 10px;
+}
+
+.text2Box {
+    border-radius: 10px;
+    background-color: rgb(41, 41, 41);
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.text2 {
+    font-size: 40px;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: whitesmoke;
+}
+
+.bottomDescription {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+
+}
+
+/* Founcders divs */
+.textContainerBody2 {
+    border-radius: 10px;
+    width: 50%;
+    background-color: rgb(41, 41, 41);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.dscrptionContainerAbout {
+    font-size: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 35px;
+    color: whitesmoke;
+}
+.separatorAbout {
+    background-color: white;
+    height: 1px;
+    border: none;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+
+/* Facilities divs */
+.FacBox {
+    padding: 10px;
+    margin-top: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    word-wrap: break-word;
+}
+
+.FacImg {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+}
+
+.Floors {
+    height: 500px;
+}
+
+.descriptionFloors {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-size: 25px;
+    width: 60%;
+    word-wrap: break-word;
+}
+
+.alignment2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 380px;
+}
+
+.alignment3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
